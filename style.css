@@ -13,13 +13,18 @@ body {
 }
 
 header {
+    background: rgb(7, 26, 45);
+    background: linear-gradient(90deg, rgba(7, 26, 45, 1) 0%, rgba(14, 51, 88, 1) 100%);
     margin: 0 1vw;
     display: flex;
     /* flex-direction: column; */
     justify-content: space-around;
     align-items: center;
-    padding: .75vw;
+    padding: .5vw;
+    height: 4vw;
     border-bottom: rgb(185, 170, 170) 1px solid;
+    position: fixed;
+    width: 100%;
 }
 
 
@@ -47,9 +52,14 @@ header nav ul{
     display: flex;
     justify-content: space-around;
 }
+ a{
+    text-decoration: none;
+    color: rgb(185, 170, 170);
+}
 
-main {
-    padding: 2vw;
+.padding {
+    /* padding: 2vw; */
+    padding-top: 6vw;
 }
 
 /* borrar */
@@ -73,8 +83,8 @@ main .presentacion {
     font-style: oblique;
     display: flex;
     align-items: center;
-    padding: 1.5vw;
-    font-size: 1.5vw;
+    padding: 0 4vw ;
+    font-size: 2vw;
     /* width: 70%; */
 }
 
@@ -121,11 +131,11 @@ main .proyectos article button:active {
 
 footer {
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 1.5vw;
-    padding: 1vw;
+    /* padding: 1vw; */
     background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(32, 32, 32) 100%);
     /* background: rgb(185, 170, 170); */
     color: rgb(185, 170, 170)
@@ -136,8 +146,9 @@ footer .lenguajes {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: .2vw;
-    width: 90%;
+    padding: 1vw;
+    width: 100%;
+    background-color: #1e2b1e;
 }
 
 footer .lenguajes img{
@@ -149,12 +160,14 @@ footer .contacto {
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: space-between;
-    width: 40%;
-    height: 100%;
+    justify-content: space-around;
+    width: 80%;
+    height: 20vw;
+    font-size: 4vw;
+    padding: 0;
 }
 footer .contacto div{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }

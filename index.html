@@ -10,28 +10,31 @@
 </head>
 
 <body>
+    <span id="inicio"></span>
     <header>
         <div class="titulo">
-            <!-- <img src="./javi.jpg" alt="foto mia"> -->
-            <h1>JAVIER ZUBILLAGA</h1>
-            <p>Desarrollador Full Stack</p>
+            <a href="#inicio">
+                <!-- <img src="./javi.jpg" alt="foto mia"> -->
+                <h1>JAVIER ZUBILLAGA</h1>
+                <p>Desarrollador Full Stack</p>
+            </a>
         </div>
         <nav>
             <ul>
-                <li>CURSOS</li>
-                <li>PROYECTOS</li>
-                <li>CONTACTO</li>
+                <li><a href="#cursos">CURSOS</a></li>
+                <li><a href="#proyectos">PROYECTOS</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="padding">
         <section class="flex">
             <p class="presentacion">
                 Hola,
                 soy desarrollador de software full stack. Tengo experiencia en la
                 creación de aplicaciones web modernas y escalables, utilizando un conjunto de tecnologías robustas y
                 populares en la industria.
-                Mi pasión por la tecnología y el desarrollo de software comenzó desde joven, cuando empecé a explorar la
+                <!-- Mi pasión por la tecnología y el desarrollo de software comenzó desde joven, cuando empecé a explorar la
                 programación por mi cuenta. Desde entonces, me he dedicado a perfeccionar mis habilidades y adquirir
                 nuevos conocimientos en el campo del desarrollo web. Mi objetivo es siempre crear aplicaciones
                 eficientes, intuitivas y con un diseño atractivo que proporcionen una excelente experiencia de usuario.
@@ -40,24 +43,32 @@
                 programación por mi cuenta. Desde entonces, me he dedicado a perfeccionar mis habilidades y adquirir
                 nuevos conocimientos en el campo del desarrollo web. Mi objetivo es siempre crear aplicaciones
                 eficientes, intuitivas y con un diseño atractivo que proporcionen una excelente experiencia de usuario.
-                A lo largo de mi carrera, he trabajado en diversos proyectos que me han permitido aplicar mis conocimientos en desarrollo frontend y backend. He construido desde sitios web estáticos hasta aplicaciones web complejas que integran servicios en tiempo real y bases de datos no relacionales. Algunos de mis proyectos destacados incluyen:
-Enfoque y Filosofía
-Creo firmemente en la importancia del aprendizaje continuo y la adaptación a las nuevas tecnologías. Me esfuerzo por mantenerme actualizado con las últimas tendencias y mejores prácticas en el desarrollo de software. Además, valoro la colaboración en equipo y la comunicación abierta como pilares fundamentales para el éxito en cualquier proyecto.
+                A lo largo de mi carrera, he trabajado en diversos proyectos que me han permitido aplicar mis
+                conocimientos en desarrollo frontend y backend. He construido desde sitios web estáticos hasta
+                aplicaciones web complejas que integran servicios en tiempo real y bases de datos no relacionales.
+                Algunos de mis proyectos destacados incluyen:
+                Enfoque y Filosofía
+                Creo firmemente en la importancia del aprendizaje continuo y la adaptación a las nuevas tecnologías. Me
+                esfuerzo por mantenerme actualizado con las últimas tendencias y mejores prácticas en el desarrollo de
+                software. Además, valoro la colaboración en equipo y la comunicación abierta como pilares fundamentales
+                para el éxito en cualquier proyecto.
 
-Contacto
-Estoy siempre en busca de nuevas oportunidades y desafíos que me permitan crecer tanto profesional como personalmente. Si tienes algún proyecto en mente o simplemente quieres conversar sobre tecnología, no dudes en contactarme.
+                Contacto
+                Estoy siempre en busca de nuevas oportunidades y desafíos que me permitan crecer tanto profesional como
+                personalmente. Si tienes algún proyecto en mente o simplemente quieres conversar sobre tecnología, no
+                dudes en contactarme.
 
-Correo Electrónico: tuemail@ejemplo.com
-LinkedIn: linkedin.com/in/javierzubillaga
-GitHub: github.com/javierzubillaga
-Gracias por tomarte el tiempo de conocerme. Espero poder colaborar contigo pronto.
+                Correo Electrónico: tuemail@ejemplo.com
+                LinkedIn: linkedin.com/in/javierzubillaga
+                GitHub: github.com/javierzubillaga -->
+                Gracias por tomarte el tiempo de conocerme. Espero poder colaborar contigo pronto.
 
-Atentamente,
+                Atentamente,
 
-Javier Zubillaga
+                Javier Zubillaga
             </p>
         </section>
-        <section>
+        <section id="proyectos" class="padding">
             <h1 class="center">
                 PROYECTOS
             </h1>
@@ -96,7 +107,7 @@ Javier Zubillaga
                 </article>
             </div>
         </section>
-        <section>
+        <section id="cursos" class="padding">
             <h1 class="center">
                 CURSOS REALIZADOS
             </h1>
@@ -147,13 +158,14 @@ Javier Zubillaga
             <img src="./assets/express.png" alt="logo express">
             <img src="./assets/mongodb.png" alt="logo mongodb">
         </div>
-        <div class="contacto">
-        <div>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-solid fa-envelope"></i>
-            <i class="fa-solid fa-phone"></i>
-            <i class="fa-brands fa-github"></i>
+        <div id="contacto" class="contacto padding">
+            <h5>Contacto</h5>
+            <div>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-solid fa-envelope"></i>
+                <i class="fa-solid fa-phone"></i>
+                <i class="fa-brands fa-github"></i>
             </div>
     </footer>
     <script src="https://kit.fontawesome.com/9c6b97bfcf.js" crossorigin="anonymous"></script>
