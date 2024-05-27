@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(7, 26, 45);
+    background: linear-gradient(90deg, rgba(7, 26, 45, 1) 0%, rgba(14, 51, 88, 1) 100%);
+    font-family: "Raleway", sans-serif;
+    color: rgb(185, 170, 170);
+}
+
+header {
+    margin: 0 1vw;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+    padding: .75vw;
+    border-bottom: rgb(185, 170, 170) 1px solid;
+}
+
+
+header .titulo {
+    text-align: center;
+}
+
+header .titulo img {
+    border: double 4px rgb(185, 170, 170);
+    width: 40vw;
+    border-radius: 100%;
+}
+
+header .titulo p {
+    text-align: right;
+}
+
+header nav {
+
+    /* background-color: red; */
+    width: 50%;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+main {
+    padding: 2vw;
+}
+
+/* borrar */
+.flex {
+    display: flex;
+}
+
+.borde {
+    border: 2px dashed darksalmon;
+}
+
+.center {
+    text-align: center;
+}
+.italic{
+    font-style: oblique;
+}
+/* borrar */
+
+main .presentacion {
+    font-style: oblique;
+    display: flex;
+    align-items: center;
+    padding: 1.5vw;
+    font-size: 1.5vw;
+    /* width: 70%; */
+}
+
+
+
+main .proyectos {
+    margin-top: 2vw;
+    display: flex;
+    justify-content: space-around;
+    height: 35vw;
+
+}
+
+main .proyectos article {
+    background-color: rgb(171, 171, 232);
+    color: rgb(7, 26, 45);
+    border-radius: 2px;
+    height: 80%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 2vw;
+}
+
+main .proyectos article button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main .proyectos article button:hover {
+    background-color: #45a049;
+}
+
+main .proyectos article button:active {
+    background-color: #3e8e41;
+}
+
+
+footer {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    padding: 1vw;
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(32, 32, 32) 100%);
+    /* background: rgb(185, 170, 170); */
+    color: rgb(185, 170, 170)
+}
+
+
+footer .lenguajes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: .2vw;
+    width: 90%;
+}
+
+footer .lenguajes img{
+    width: 3.5vw;
+    height: 3.5vw;
+}
+
+footer .contacto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    height: 100%;
+}
+footer .contacto div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}

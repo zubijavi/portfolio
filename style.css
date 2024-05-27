@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    
+}
+
+body {
+    margin: 0.5vw 1vw;
+}
+
+header {
+    color: rgb(7, 26, 45);
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.1vw;
+    font-size: .8vw;
+
+}
+
+header div {
+    padding-left: 2vw;
+}
+
+header div h4 {
+    text-align: right;
+}
+
+header ul {
+    width: 40%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header ul li i {
+    font-size: 2vw;
+}
+
+.sobreMi {
+    display: flex;
+    margin: 0.1vw 0;
+    flex-direction: column;
+    color: white;
+    background: linear-gradient(90deg, rgba(7, 26, 45, 1) 0%, rgba(7, 26, 45, 0.8) 50%, rgba(7, 26, 45, 0.5) 100%);
+}
+
+.aboutMe {
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    align-items: center;
+    width: 80%;
+}
+
+.card img {
+    height: 80%;
+    border-radius: 20%;
+}
+
+.card div {
+    width: 50%;
+}
+
+.cursos {
+    text-align: center;
+}
+
+.proyectos {
+    color: rgb(7, 26, 45);
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 1vw;
+}
+
+.proyectos .paginas {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.proyectos .paginas article {
+    border: solid 1px rgb(7, 26, 45);
+    border-radius: 2%;
+    width: 25%;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5vw;
+}
+
+.proyectos .paginas article button {
+    position: relative;
+    width: 40%;
+    top: 1vw;
+    left: 4.5vw;
+}
+
+footer {
+    color: whitesmoke;
+    text-align: center;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(105, 105, 105, 1) 57%, rgba(186, 159, 159, 1) 100%);
+}
