@@ -83,7 +83,7 @@ main .presentacion {
     font-style: oblique;
     display: flex;
     align-items: center;
-    padding: 0 4vw ;
+    padding: 2vw 4vw ;
     font-size: 2vw;
     /* width: 70%; */
 }
